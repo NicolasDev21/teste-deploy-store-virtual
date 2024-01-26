@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual - PI</title>
+
+    <!-- Flat Icons -->
+
+    <!-- Icon | Search -->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+    <!-- Icon | Cart | Purchase -->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <!-- Icon | Open Menu -->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <!-- Icon | Close Menu -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+
+    <!-- Icon | Config. User | Profile -->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <!-- Icon | Arrows | Left & Right -->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <!-- Icon | Heart | Interaction Image -->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+
+    <!-- Icon | Share | Interaction Image -->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <!-- Icon | Instagram -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
+
+    <!-- Icon | WhatsApp -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
+
+    <!-- Icon | Save Favorite -->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <!-- Icon | Cifrão -->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+    <!-- Icon | Engrenagem | Config -->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <!-- Icon | Engrenagem -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+
+<body>
+    <!-- Header Gap for mobile -->
+    <header id="header-mobile-gap"></header>
+
+    <header>
+        <!-- Logo -->
+        <div id="figure-logo">
+            <a href="#home"><img src="logo.jpg" alt="logo image"></a>
+            <h4>Feminine Feshion</h4>
+        </div>
+
+
+        <!-- Container de interação do usuário com o header -->
+        <section id="interaction-header">
+            <div id="field-search">
+                <input type="text" placeholder="Pesquisar" id="search">
+                <i class="fi fi-rs-search"></i>
+            </div>
+
+            <!-- Field Icon Buttons for Header -->
+            <article id="field-buttons-header">
+
+                <!-- Icon | Config. User | Profile -->
+                <i id="icon-config-user" class="fi fi-rr-circle-user"></i>
+
+                <!-- Container purchase -->
+                <div id="purchase-score">
+                    <!-- Icon | Cart | Purchase -->
+                    <i class="fi fi-rr-shopping-cart"></i>
+                    <aside id="circle-score">
+                        <p id="score-car">100</p>
+                    </aside>
+                </div>
+
+                <!-- Icon | Menu -->
+                <i id="menu-icon" class="fi fi-rr-menu-burger"></i>
+            </article>
+        </section>
+    </header>
+
+
+    <article id="bar-products">
+        <p>Vestidos</p>
+        <p>Macacão</p>
+        <p>Cropped</p>
+        <p>Conjuntos</p>
+        <p>Shorts-saia</p>
+        <p>Calças</p>
+        <p>Body</p>
+        <p>Jaquetas</p>
+        <p>Calçados</p>
+    </article>
+
+
+
+
+
+    <!-- Menu navigation for - Web Store -->
+    <section id="menu-navigation">
+
+        <!-- First Range Cards -->
+        <article class="range-items" id="first-range">
+
+            <!-- Card User -->
+            <div class="cards" id="card-01">
+                <i class="fi fi-sr-circle-user"></i>
+            </div>
+
+            <!-- Card Cart -->
+            <div class="cards" id="card-02">
+                <i class="fi fi-sr-shopping-cart"></i>
+            </div>
+
+            <!-- Card Config.  -->
+            <div class="cards" id="card-03">
+                <i class="fi fi-sr-settings"></i>
+            </div>
+        </article>
+
+        <!-- Last Range Cards -->
+        <article class="range-items" id="last-range">
+
+            <!-- Card info -->
+            <div class="cards" id="card-04">
+                <i class="fi fi-sr-info"></i>
+            </div>
+
+            <!-- card Promotion -->
+            <div class="cards" id="card-05">
+                <i class="fi fi-sr-badge-percent"></i>
+            </div>
+        </article>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Menu navigation | Config User -->
+    <article class="menu-login-of" id="menu-config-user">
+        <article class="header-menu-login">
+            <!-- Icon | User | Open menu -->
+            <i id="icon-menu-user" class="fi fi-rr-circle-user"></i>
+        </article>
+
+        <!-- Form Login -->
+        <form id="form-login" action="">
+            <label for="login">Login:</label>
+            <input type="text" placeholder="digite seu e-mail" id="input-login">
+
+            <label for="password">password:</label>
+            <input type="password" placeholder="digite sua senha" id="input-password">
+
+            <article class="container-button-menu-login">
+                <div id="btn-login" class="btn-menu-user" name="button-login">Entrar</div>
+
+                <div class="btn-menu-user" id="btn-open-cadastro" name="btn-open-cadastro">Cadastrar</div>
+            </article>
+        </form>
+    </article>
+
+    <article id="widget-cadastro">
+        <!-- Form Cadastro -->
+        <form id="form-cadastro" action="">
+            <article class="container-close-cadastro">
+                <p>Feminine Feshion | Cadastro</p>
+                <i id="btn-close-cadastro" class="fi fi-br-cross"></i>
+            </article>
+            <article class="header-menu-login">
+                <!-- Icon | User | Open menu -->
+                <i id="icon-menu-user" class="fi fi-rr-circle-user"></i>
+            </article>
+
+            <label for="username">Username:</label>
+            <input type="text" placeholder="digite seu nome..." id="input-cadastro-name">
+
+            <label for="email">E-mail:</label>
+            <input type="text" placeholder="digite seu e-mail..." id="input-cadastro-email">
+
+            <label for="email">password:</label>
+            <input type="text" placeholder="digite sua senha..." id="input-cadastro-password">
+            <label for="email">Confirm password:</label>
+            <input type="text" placeholder="check password..." id="input-confirm-password">
+
+            <article class="container-button-menu-cadastro">
+                <input type="reset" class="btn-menu-user" name="btn-reset" value="Limpar">
+                <div class="btn-menu-user" name="btn-cadastrar">Cadastrar</div>
+            </article>
+        </form>
+    </article>
+
+
+    <!-- Start content -->
+    <main>
+
+        <!-- Looks Mais curtidos -->
+        <section id="container-look-favorites">
+            <div class="container-h4-favorites">
+                <h4>+ Likes <i id="heart-likes" class="fi fi-ss-heart"></i></h4>
+            </div>
+            <article id="field-circles">
+                <div class="circle" id="div-cirlce1">
+                    <div class="circle-photo" id="circle-photo1"></div>
+                </div>
+                <div class="circle">
+                    <div class="circle-photo" id="circle-photo2"></div>
+                </div>
+                <div class="circle">
+                    <div class="circle-photo" id="circle-photo3"></div>
+                </div>
+                <div class="circle">
+                    <div class="circle-photo" id="circle-photo4"></div>
+                </div>
+                <div class="circle">
+                    <div class="circle-photo" id="circle-photo5"></div>
+                </div>
+                <div class="circle">
+                    <div class="circle-photo" id="circle-photo6"></div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Social Media -->
+        <article class="container-media-social">
+            <i class="fi fi-brands-instagram"></i>
+            <p>&</p>
+            <i class="fi fi-brands-whatsapp"></i>
+        </article>
+
+        <!-- Banner for store -->
+        <section id="container-banner">
+            <article id="banner"></article>
+        </section>
+
+        <!-- Imagens de destaque | Carousel -->
+        <section id="container-feature-images">
+            <article class="class-feature-photo">
+
+                <div class="header-feature-photos">
+                    <!-- Icon | Arrow Left -->
+                    <i id="feature-arrow-left" class="fi fi-rr-angle-left"></i>
+                    <h4>Destaques</h4>
+                    <!-- Icon | Arrow right -->
+                    <i id="feature-arrow-right" class="fi fi-rr-angle-right"></i>
+                </div>
+
+                <!-- Campo da imagem -->
+                <section class="content-img-feature">
+                    <!-- Contador de fotos -->
+                    <aside class="contador-photo">
+                        <div class="circle-contador"></div>
+                        <div class="circle-contador"></div>
+                        <div class="circle-contador"></div>
+                        <div class="circle-contador"></div>
+                        <div class="circle-contador"></div>
+                    </aside>
+
+                    <!-- Imagem de destaque -->
+                    <div class="img-feature"></div>
+
+
+
+                    <!-- Campo de interação com as imagens -->
+                    <article class="interaction-images-feature">
+                        <div id="icons-like-share">
+                            <!-- Icon | Hearth  -->
+                            <i class="fi fi-rs-heart"></i>
+
+                            <!-- Icon | Share -->
+                            <i class="fi fi-rr-paper-plane"></i>
+
+                            <!-- Icon | Cifrão $ -->
+                            <i id="icon-cifrao" class="fi fi-sr-usd-circle"></i>
+                        </div>
+
+                        <!-- Icon | add cart -->
+                        <i id="icon-add-cart" class="fi fi-rr-shopping-cart"></i>
+                    </article>
+
+
+                    <!-- Campo de descrição da foto -->
+                    <section class="container-description-photo-feature">
+
+                        <!-- Faixa 01 | Range Produto 1 -->
+                        <div class="range-description" id="first-range-description">
+                            <p class="name-product">Cropped Argola</p>
+
+                            <!-- Campo de preço -->
+                            <div class="field-price-product">
+                                <span class="cifrao">R$</span>
+                                <p class="price-product">29,90</p>
+                            </div>
+                        </div>
+
+
+
+                        <!-- Faixa 02 | Range Produto 2 -->
+                        <div class="range-description" id="secound-range-description">
+                            <p class="name-product">Shorts - Saia</p>
+
+                            <!-- Campo de preço -->
+                            <div class="field-price-product">
+                                <span class="cifrao">R$</span>
+                                <p class="price-product">39,90</p>
+                            </div>
+                        </div>
+                        <!-- Faixa 03 | Promoção do produto -->
+                        <!-- <div class="container-promotion-product">Promotion product</div> -->
+
+                    </section>
+
+                </section>
+
+            </article>
+
+        </section>
+
+        <!-- Seção | Navigation page -->
+        <nav class="container-navigation-page">
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+
+        <!-- Seção | Sobre -->
+        <section class="sections-page" id="container-about">
+            <h2>Sobre nós...</h2>
+        </section>
+
+
+        <!-- Seção | Contatos -->
+        <section class="sections-page" id="container-contact">
+            <h2>Fale com a gente !</h2>
+        </section>
+
+
+        <!-- End content -->
+        <footer id="footer">Footer | Parcerias</footer>
+    </main>
+
+    <section id="container-float-buttons">
+        <article class="field-buttons-float">
+
+            <!-- Float Cart -->
+            <div class="button-float" id="btn-float-cart">
+                <i class="fi fi-sr-shopping-cart"></i>
+            </div>
+
+            <!-- Float Store -->
+            <div class="button-float" id="btn-float-store">
+                <i id="icon-float-store" class="fi fi-sr-bags-shopping"></i>
+            </div>
+        </article>
+    </section>
+
+    <article id="foot-float">.</article>
+
+
+
+
+
+</body>
+
+</html>
